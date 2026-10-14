@@ -1,0 +1,23 @@
+# Environment variables (DO NOT commit secrets)
+.env
+
+# Node modules
+node_modules/
+
+# Lock files (optional – uncomment to exclude)
+# package-lock.json
+
+# Playwright artifacts
+playwright-report/
+test-results/
+
+# Excel lock files
+.~lock.*.xlsx#
+
+# Generated reports / screenshots
+*.png
+test-results.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
